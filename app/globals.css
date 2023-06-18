@@ -12,3 +12,18 @@
 .bg-primary-gradient {
   background: linear-gradient(359.28deg, #1a4789 11.87%, #000000 194.74%);
 }
+
+.btn-shadow {
+  box-shadow: 0 1.125em 1em -1em #1a4789;
+}
+
+.tw-btn {
+  border-radius: 7px;
+  padding: 0.8em 1.25em;
+  transform: scale(1);
+  transition: transform 200ms ease;
+}
+
+.tw-btn:hover {
+  transform: scale(1.05) translateY(-0.125em);
+}

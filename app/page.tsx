@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Button from "./Button";
 import Container from "./Container";
 import ContentHero from "./ContentHero";
 import ContentSection from "./ContentSection";
@@ -70,7 +71,7 @@ export default function Home() {
                   1st Choice team members will host a Back-to-School event on
                   July 15th at the Auburn Office – Click here for link to event{" "}
                 </div>
-                <div>
+                <div className="tw-pb-4">
                   If you have questions about the Back-to-School drive, please
                   reach out to{" "}
                   <LinkStyles
@@ -80,6 +81,10 @@ export default function Home() {
                   or call member services and speak to your branch
                   representative.
                 </div>
+                <Button
+                  text="donation information"
+                  href="https://www.1stchoicecu.org/wp-content/uploads/2023/06/School-Supply-Drive-8.5X111024_1.jpg"
+                />
               </div>
             </div>
             <div className="tw-order-1">
