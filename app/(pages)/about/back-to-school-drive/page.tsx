@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import Button from "./components/Button";
-import Container from "./components/Container";
-import ContentHero from "./components/ContentHero";
-import ContentSection from "./components/ContentSection";
-import LinkStyles from "./components/LinkStyles";
-import StyledList from "./components/StyledList";
+
+import Button from "@/app/components/Button";
+import Container from "@/app/components/Container";
+import ContentHero from "@/app/components/ContentHero";
+import ContentSection from "@/app/components/ContentSection";
+import LinkStyles from "@/app/components/LinkStyles";
+import StyledList from "@/app/components/StyledList";
 
 export default function Home() {
   return (
